@@ -1,0 +1,108 @@
+{
+  "packages": [
+    {
+      "name": "bk7238",
+      "maintainer": "beken",
+      "websiteUrl": "https://www.bekencorp.com/",
+      "Url": "https://dl2.bekencorp.com/arduino/package_bk7238_index.json",
+      "email": "xxxx@bekencorp.com",
+      "platforms": [
+        {
+          "name": "bk7238",
+          "architecture": "bk7238",
+          "version": "1.0.1",
+          "deprecated": false,
+          "category": "bk7238",
+          "url": "https://dl2.bekencorp.com/arduino/1.0.1/BK7238-1.0.1.zip",
+          "archiveFileName": "BK7238-1.0.1.zip",
+          "checksum": "SHA-256:b1810fb5d752cc1f3cba906b627c81981c83ee7274aebe0c8c11d97c4af739be",
+          "size": "18477299",
+          "boards": [
+            {
+              "name": "bk7238"
+            }
+          ],
+          "help": {},
+          "toolsDependencies": [
+            {
+              "packager": "bk7238",
+              "name": "gcc-arm-none-eabi",
+              "version": "10.3-2021.10"
+            },
+            {
+              "packager": "bk7238",
+              "name": "beken_packager",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "bk7238",
+              "name": "bk_loader",
+              "version": "2.1.10.0"
+            }
+          ],
+          "discoveryDependencies": [],
+          "monitorDependencies": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "beken_packager",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "windows10",
+              "url": "https://dl2.bekencorp.com/arduino/1.0.0/beken_packager-2.0.0-win32.zip",
+              "archiveFileName": "beken_packager-2.0.0-win32.zip",
+              "size": "12422668",
+              "checksum": "SHA-256:dde715f1777a515b8dbf4aafae5071895d117e96cfb758745b1af73db1a7f1f4"
+            }
+          ]
+        },
+        {
+          "name": "bk_loader",
+          "version": "2.1.10.0",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://dl2.bekencorp.com/arduino/1.0.0/bk_loader-2.1.10.0-win32.zip",
+              "archiveFileName": "bk_loader-2.1.10.0-win32.zip",
+              "size": "2115585",
+              "checksum": "SHA-256:bf605a6c08f6ebb6384828c6a2e9f8e7fd8204060efd2f518b83c01e2dc31889"
+            },
+            {
+              "host": "x86_64-cygwin",
+              "url": "https://dl2.bekencorp.com/arduino/1.0.0/bk_loader-2.1.10.0-win32.zip",
+              "archiveFileName": "bk_loader-2.1.10.0-win32.zip",
+              "size": "2115585",
+              "checksum": "SHA-256:bf605a6c08f6ebb6384828c6a2e9f8e7fd8204060efd2f518b83c01e2dc31889"
+            }
+          ]
+        },
+        {
+          "name": "gcc-arm-none-eabi",
+          "version": "10.3-2021.10",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://dl2.bekencorp.com/arduino/1.0.0/gcc-arm-none-eabi-10.3-2021.10.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10.tar.bz2",
+              "size": "171482980",
+              "checksum": "SHA-256:22ba87c7d483b8d34c49b1456248142875fafd82c21922b37e906594447f749d"
+            },
+            {
+              "host": "x86_64-cygwin",
+              "url": "https://dl2.bekencorp.com/arduino/1.0.0/gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+              "size": "197366987",
+              "checksum": "SHA-256:23eb2d117c2bc5f8f59556b3342f0f4599a4e0cfef189bb39907bca76d8c06c9"
+            }
+          ]
+        }
+      ],
+      "help": {
+        "online": "https://www.bekencorp.com/"
+      }
+    }
+  ],
+  "IsTrusted": false
+}
